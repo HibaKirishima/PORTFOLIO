@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container2 {
+    max-width:  1200px;
+    margin-right: 100px ;
+    background: linear-gradient(to bottom, #F1DCD0, #7F4A66, #F1DCD0); 
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+/*failed cuz outside line bitchy 
+.intro_name {
+    font-family: 'Kavoon';
+    font-weight: 900;
+    font-size: 50px; 
+    margin: 10px 0;
+    margin-left: 20px;
+    margin-top: -10px;
+    color: black; 
+    -webkit-text-fill-color: black; 
+    -webkit-text-stroke: 5px #737395; 
+}
+*/
+
+
+
+    body{
+        background-color: #4D4747;
+        margin-bottom: 0;
+        margin-top: 0;
+        width: 80%;
+        height: 80%;
+        
+    }
+    
+
+
+
+
+
+.text_intro{
+    width: 800px;
+    font-weight: 900;
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+.hi{
+    width: 40%;
+}
+
+.cont_github {
+    width: 800px; /* Width of the square */
+    height: 120px; /* Height of the square */
+    background-color: #3C7697; /* Background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kavoon', sans-serif; /* Adjust font family as needed */
+    font-size: 40px; /* Font size of the text */
+    color: rgb(0, 0, 0); /* Text color */
+    margin: auto; /* Center the container within its parent */
+    margin-top: 100px; /* Add top margin if needed */
+    border-radius: 20px; /* Adjust this value for more or less rounding */
+}
+
+
+.carre_placement{
+    margin-right: 550px;
+}
+
+.cloud_position {
+    position: absolute; /* Use absolute positioning */
+    top: 0; /* Align to the top of the page */
+    right: 0; /* Align to the right of the page */
+    margin-top: 20px; /* Optional: Add some margin from the top */
+    margin-right: 250px; /* Optional: Add some margin from the right */
+}
+
+.gradient-square {
+    width: 400px; /* Adjust the size as needed */
+    height: 800px; /* Adjust the size as needed */
+    background: linear-gradient(to top, #F1DCD0 0%, #CEAFB0 62%, #7F4A66 100%);
+    position: relative;
+}
+
+.gradiant_square_position{
+    position: absolute; /* Use absolute positioning */
+    top: 0; /* Align to the top of the page */
+    right: 0; /* Align to the right of the page */
+    margin-top: 250px; /* Optional: Add some margin from the top */
+    margin-right: 100px; /* Optional: Add some margin from the right */
+}
+
+.yellow-circle {
+    width: 220px; /* Adjust the size of the circle */
+    height: 200px; /* Adjust the size of the circle */
+    background-color: #F3C57F; /* Circle color */
+    border-radius: 50%; /* Makes the div a circle */
+    position: absolute; /* Position it absolutely within the gradient square */
+    top: 25%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the size of the circle */
+}
+
+.cloud-under-sun {
+    width: 180%; /* Adjust the size as needed */
+    position: absolute; /* Position it absolutely within the gradient square */
+    top: 42%; /* Adjust this value to position it under the yellow circle */
+    left: 60%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the size of the image */
+}
+
+/* New Contact Square */
+.contact-square {
+    width: 384px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    background-color: #3C7697; /* Background color */
+    border: 10px solid #F3C57F; /* Yellow outline */
+    position: absolute; /* Position it within the gradient square */
+    top: 0; /* Adjust as needed */
+    left: 80%; /* Center horizontally */
+    margin-top: 900px;
+    margin-left: 100px;
+    transform: translateX(-50%); /* Center the square */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 10px; /* Padding for the title */
+    z-index: 1;
+}
+
+.contact-title {
+    font-size: 45px; /* Title font size */
+    color: #000000; /* Title color */
+    margin-bottom: 10px; /* Spacing below title */
+    font-weight: bolder;
+}
+
+.contact-info {
+    font-size: 35px; /* Info font size */
+    font-weight: bold;
+    color: #e5dddd; /* Info text color */
+    text-align: left; /* Align to the left */
+    margin-left: -200px; /* Margin for left alignment */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+}
+
+.contact-item {
+    color: white; /* Text color */
+    margin-bottom: 15px; /* Space between each item */
+}
+
+/*resume decoration*/
+.big_resume-container {
+    position: relative;
+    bottom: -150px; /* Adjust as needed */
+    left: 85%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+}
+ 
+.big_resume {
+    font-family: 'Kavoon';
+    font-size: 130px;
+    color: #7F4A66;
+    margin: -30px 0;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 7px;
+}
+
+.education-rectangle {
+    width: 500px; /* Adjust width as needed */
+    height: 120px; /* Adjust height as needed */
+    background: linear-gradient(
+        to bottom, 
+        #87556E 0%,  /* Start with the semi-transparent color */
+        #87556E 18%, /* Extend the semi-transparent color to 60% of the height */
+        rgba(243, 197, 127, 1) 100%   /* Transition to the yellow color for the remaining height */
+    );  
+      border-radius: 100px; /* Rounded corners */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin-left: 80px;
+    margin-top: -100px;
+    position: absolute; /* Position it absolutely */
+    z-index: 2; /* Higher z-index to place this rectangle on top */
+    
+}
+
+.education-text {
+    color: white; /* Text color */
+    font-size: 50px; /* Text size */
+    font-family: Arial, sans-serif; /* Font family */
+    font-family: 'Krona One';
+}
+
+.education-rectangle2{
+    width: 250px; /* Adjust width as needed */
+    height: 120px; /* Adjust height as needed */
+    background: linear-gradient(
+        to bottom, 
+        #87556E 0%,  /* Start with the semi-transparent color */
+        #87556E 18%, /* Extend the semi-transparent color to 60% of the height */
+        rgba(243, 197, 127, 1) 100%   /* Transition to the yellow color for the remaining height */
+    );  
+      border-radius: 100px; /* Rounded corners */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin-left: 320px;
+    margin-top: 10px;
+    position: absolute; /* Position it absolutely */
+    z-index: 1; /* Lower z-index to place this rectangle underneath */
+}
+
+/* Container for the star and text lines */
+.star-text-container {
+    margin-left: 100px; /* Align with the education-rectangle2 */
+    margin-top: 140px; /* Space it below the education-rectangle2 */
+    position: absolute; /* Position it absolutely */
+}
+
+.star-text-line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px; /* Space between lines */
+}
+
+.star-icon {
+    font-size: 60px; /* Adjust size of the star */
+    color: black; /* Star color */
+    margin-right: 10px; /* Space between star and text */
+}
+
+.star-text {
+    font-family: 'Krona One'; /* Match with existing text style */
+    font-size: 30px;
+    color: white;
+}
+/*Container next to star text*/
+
+.next-star-text-container{
+    margin-left: 650px; /* Align with the education-rectangle2 */
+    margin-top: 140px; /* Space it below the education-rectangle2 */
+    position: absolute; /* Position it absolutely */
+
+}
+
+.next-star-text-line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Space between lines */
+}
+
+.school-name{
+    font-size: 40px;
+    color: rgb(12, 12, 12);
+    font-weight: bolder;
+    margin-bottom: 2px;
+    margin-top: 10px;
+
+}
+
+.detail-school, .skilljapanese{
+    font-size: 30px;
+    color: #214458;
+    font-weight: 'Yu Gothic UI', sans-serif;
+    font-weight: 900;
+    margin-left: 40px;
+
+}
+
+.education-rectanglesecond{
+    width: 580px; /* Adjust width as needed */
+    height: 120px; /* Adjust height as needed */
+    background: linear-gradient(
+        to bottom, 
+        #87556E 0%,  /* Start with the semi-transparent color */
+        #87556E 18%, /* Extend the semi-transparent color to 60% of the height */
+        rgba(243, 197, 127, 1) 100%   /* Transition to the yellow color for the remaining height */
+    );  
+      border-radius: 100px; /* Rounded corners */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin-left: 1400px;
+    margin-top: 60px;
+    position: absolute; /* Position it absolutely */
+    z-index: 2; /* Higher z-index to place this rectangle on top */
+    opacity: 0.85;
+
+}
+.education-rectangle2second{
+    width: 250px; /* Adjust width as needed */
+    height: 120px; /* Adjust height as needed */
+    background: linear-gradient(
+        to bottom, 
+        #87556E 0%,  /* Start with the semi-transparent color */
+        #87556E 18%, /* Extend the semi-transparent color to 60% of the height */
+        rgba(243, 197, 127, 1) 100%   /* Transition to the yellow color for the remaining height */
+    );  
+      border-radius: 100px; /* Rounded corners */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin-left: 1720px;
+    margin-top: 170px;
+    position: absolute; /* Position it absolutely */
+    z-index: 1; /* Lower z-index to place this rectangle underneath */
+}
+.myskills{
+    margin-left: 1400px;
+    margin-top: 300px;
+}
+.skills-text{
+    color: white; /* Text color */
+    font-size: 30px; /* Text size */
+    font-family: 'Krona One';
+
+}
+
+.circle-icon{
+    font-size: 50px; /* Adjust size of the star */
+    color: black; /* Star color */
+    margin-right: 10px; /* Space between star and text */
+}
+.skilljapanese{
+    font-weight: bold;
+    font-size:35px;
+}
+
+.language-rectangle{
+    width: 580px; /* Adjust width as needed */
+    height: 120px; /* Adjust height as needed */
+    background: linear-gradient(
+        to right, 
+        #ACBEBE 0%,  /* Start with the semi-transparent color */
+        #ACBEBE 20%, /* Extend the semi-transparent color to 60% of the height */
+        #EEC483 100%   /* Transition to the yellow color for the remaining height */
+    );  
+      border-radius: 100px; /* Rounded corners */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin-left: 1400px;
+    margin-top: 60px;
+    position: absolute; /* Position it absolutely */
+    z-index: 2; /* Higher z-index to place this rectangle on top */
+    border: 12px solid #3B7494; /* Outline color and thickness */
+
+}
+
+.language-rectangle2{
+    width: 250px; /* Adjust width as needed */
+    height: 120px; /* Adjust height as needed */
+    background: linear-gradient(
+        to right, 
+        #ACBEBE 0%,  /* Start with the semi-transparent color */
+        #ACBEBE 20%, /* Extend the semi-transparent color to 60% of the height */
+        #EEC483 100%   /* Transition to the yellow color for the remaining height */
+    );  
+      border-radius: 100px; /* Rounded corners */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin-left: 1720px;
+    margin-top: 170px;
+    position: absolute; /* Position it absolutely */
+    z-index: 1; /* Lower z-index to place this rectangle underneath */
+    border: 12px solid #3B7494; /* Outline color and thickness */
+
+
+}
+.blue-circle {
+    width: 260px; /* Size of the circle */
+    height: 240px; /* Size of the circle */
+    background-color: #ACBEBE; /* Circle color */
+    border-radius: 50%; /* Makes the div a circle */
+    position: absolute; /* Position it absolutely within the gradient square */
+    top: 51%; /* Center vertically */
+    left: 75%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the size of the circle */
+    border: 12px solid #3B7494; /* Outline color and thickness */
+    display: flex; /* Enables flexbox for centering */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    text-align: center; /* Center-align text within the span */
+}
+
+.spoken_language {
+    font-family: 'Laila';
+    font-size: 32px;
+    font-weight: bold;
+    padding-left: 20px; /* Moves the text to the right */
+    line-height: 1.2; /* Adjusts the spacing between lines for better appearance */
+}
+.level{
+    width: 300px; /* Adjust width as needed */
+    height: 90px; /* Adjust height as needed */
+    background-color: #F3C57F;
+    border-radius: 100px; /* Rounded corners */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    margin-left: 1700px;
+    margin-top: 400px;
+    position: absolute; /* Position it absolutely */
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
