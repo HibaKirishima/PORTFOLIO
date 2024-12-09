@@ -16,6 +16,14 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
 }
+.resume{
+    font-family: 'Jomhuria';
+    font-size: 50px;
+    margin-left: 1000px;
+    margin-top: -40px;
+
+    
+}
 
 .carre_placement{
     margin-right: 460px;
@@ -42,6 +50,23 @@ body {
     width: 1500px;
     height: 900px;
     position: relative;
+}
+/* Basic styling for the image */
+/* Basic styling for the image */
+.image-with-word {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from the parent element */
+}
+
+/* Optional: If you want to avoid any other link styles */
+a:visited, a:focus, a:hover, a:active {
+    color: inherit; /* Ensures link color stays the same when hovered, clicked, or focused */
 }
 
 .jomhuria {
@@ -93,7 +118,6 @@ header {
     width: 200%;
     height: 260%;
     z-index: 2; /* Ensure the overlay is above pinochio texts */
-    background-color: #4D4747; /* Black with 50% opacity */
     top: 160%;
     left: 170%;
     transform: translate(-50%, -50%);
@@ -226,3 +250,156 @@ header {
     margin-right: 30px;
     margin-top: 5px;
 }
+/* Sidebar styling */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #333;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #3C7697;
+  }
+  
+  .closebtn {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+  
+
+@media (max-width:768px){
+
+    .container{
+        width: 90%;
+        height: 1000px;
+    }
+    .resume {
+        font-size: 30px; /* Smaller font size */
+        margin-left: 70px;  /* Remove the large margin */
+        margin-top: 0;   /* Adjust top margin */
+        text-align: center; /* Center text */
+        z-index: 10;
+        display: inline-block;
+    }
+    
+    .jomhuria{
+        font-size: 35px;
+        margin-top: 15px;
+    }
+
+    .head{
+        margin-left: -500px;
+
+    }
+    .hopbuttonme{
+        font-size: 10px;
+        margin-right: -60px;
+    }
+
+    .star_1{
+        width: 15%;
+    }
+    .carre_placement{
+        margin-left: -1070px;
+        margin-top: 8px;
+    }
+    .get_in_touch{
+        width: 9%;
+        height: 30px;
+        font-size: 10px;
+    }
+    .overlay-image{
+        width: 30%;
+    }
+    .star_2{
+        width: 9%;
+        margin-left: 370px;
+        margin-top: 250px;
+
+    }
+    .star_3 {
+        width: 8%;
+        margin-left: 430px;
+        margin-top: 170px;
+        
+    }
+    .star_4{
+        width: 8%;
+        margin-left: 180px;
+        margin-top: 180px;
+    }
+    
+    .overlay{
+        margin-left: -380px;
+        margin-top: -170px;
+    }
+    .pinochio{
+        font-size: 33px;
+        -webkit-text-stroke: 2.5px;
+        margin-bottom: -86px;
+
+    }
+    .pinochio-container{
+        margin-left: -455px;
+        margin-bottom: 430px;
+    }
+    .text{
+        font-size: 33px;
+        margin-left: 140px;
+        margin-top: 10px;
+        padding-top: 55px;
+
+    }
+    .square{
+        width: 230px;
+        height: 90px;
+        top: 85%;
+        left: 55%;
+        position: absolute;
+    }
+    .square p{
+        font-size: 13px;
+    }
+    .hopbuttonme2{
+        font-size: 13px;
+    }
+    .align_left{
+        margin-top: 20px;
+    }
+    .blue-square{
+       top: 92%;
+        width: 352px;
+        height: 100px;
+    }
+    .container{
+        height: 455px;
+    }
+    .text-container{
+       top: -7%;
+
+    }
+
+
+    
+}
+
+

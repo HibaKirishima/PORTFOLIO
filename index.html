@@ -27,30 +27,33 @@
         </div>
         
 
-        <div class="image-with-word">
-            <img src="./images/star.png" class="star_1">
-            <span class="jomhuria">Hiba ElMouaden</span>
+        <!-- Clickable area to open sidebar -->
+        <div class="image-with-word" onclick="startAnimation()"> <!-- Trigger animation on click -->
+          <img src="./images/star.png" class="star_1" id="star_1" />
+          <span class="jomhuria">Hiba ElMouaden</span>
+        </div>
+      <a href="secondNEW.html" >
+         <div class="resume" id="resume">Resume  履歴書</div>
+      </a>
+      
 
-            <header>
-                <div class="head">
-                    <span class="Krona"><a href="secondNEW.html#about-me-section" class="hopbuttonme">About Me</a></span>
-                    <span class="Krona"><a href="secondNEW.html#education-section" class="hopbuttonme">履歴書</a></span>
-                    <span class="Krona"><a href="secondNEW.html#work-section" class="hopbuttonme">Work</a></span>
-                </div>
-            </header>
-            
-        </div>
-        <div class="carre_placement">
-            <div class="get_in_touch">
-                Get in touch!
-            </div>
-        </div>
+         <!-- Sidebar -->
+      <!--<div id="sidebar" class="sidebar">
+        <span class="closebtn" onclick="closeSidebar()">×</span>
+        <a href="secondNEW.html#about-me-section">About Me</a>
+        <a href="secondNEW.html#education-section">履歴書</a>
+        <a href="secondNEW.html#work-section">Work</a>
+        <a href="#get-in-touch-section">Get in Touch</a>
+      </div>
+      -->
+
+
 
         <div class="text-container">
-            <p class="text kavoon">PORTFOLIO</p>
+            <p class="text kavoon"> PORTFOLIO </p>
             <div class="overlay">
 
-            <img src="./images/portfoliointroimage.jpg" class="overlay-image">
+                <img src="./images/portfoliointroimage.jpg" class="overlay-image">
 
                 <img src="./images/star.png" class="star_2">
                 <img src="./images/star.png" class="star_3">
@@ -66,5 +69,23 @@
         </div>
     </div>
 </div>
+
+<script>
+    function openSidebar() {
+  document.getElementById("sidebar").style.width = "250px";
+}
+
+function closeSidebar() {
+  document.getElementById("sidebar").style.width = "0";
+}
+// Function to trigger the animation on the image
+function startAnimation() {
+    const image = document.getElementById("star_1");
+    image.classList.add("animate"); // Add the class to start animation
+}
+
+
+
+</script>
 </body>
 </html>
